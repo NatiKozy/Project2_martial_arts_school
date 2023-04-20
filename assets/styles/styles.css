@@ -63,6 +63,6 @@
   padding-bottom: 4%;
 }
 .about__list .about__item::before {
-  content: url(../images/Polygon\ 1.svg);
+  content: url(../images/triangle.svg);
   padding-right: 3%;
 }/*# sourceMappingURL=styles.css.map */
