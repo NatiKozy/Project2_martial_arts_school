@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$title-font:'Playfair Display', serif;
+$text-color: #000;
+$text-font: 'Jost', sans-serif;
+
+@mixin title{
+    font-family:$title-font;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 86px;
+    color: $text-color;
+}
+
+@mixin text{
+    font-family:$text-font;
+    font-weight:400;
+    font-size: 40px;
+    line-height: 58px;
+    color: $text-color;
+}
+
+.hero{
+    max-width:1600px;
+    background-color: #E1EBFF;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.hero__title{
+    @include title;
+    padding-top: 5%;
+    padding-left: 11%;
+    @media(max-width:450px) {
+        font-size:52px;
+    }
+}
+
+.hero__text{
+    @include text;
+    padding-left: 7%;
+    padding-bottom: 8%;
+}
+
+.about{
+    max-width:1600px;
+    margin: 0 auto;
+}
+
+.about__title{
+    @include title;
+    padding-left: 7%;
+    text-align: center;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.about__list{
+    .about__item {
+        @include text;
+        list-style: none;
+        padding-bottom: 4%;
+    }
+    .about__item::before {
+        content:url(../images/Polygon\ 1.svg);
+        padding-right: 3%;
+    }
+}
+
+
