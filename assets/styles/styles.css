@@ -1,7 +1,19 @@
+=======
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  max-width: 1600px;
+  min-width: 250px;
+  margin: 0 auto;
 }
 
 .hero {
@@ -65,4 +77,124 @@
 .about__list .about__item::before {
   content: url(../images/triangle.svg);
   padding-right: 3%;
+
+.contacts {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contacts_howfind {
+  text-align: center;
+  font: bold;
+  font-weight: 400;
+  font-size: 64px;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 10%;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .contacts_howfind {
+    font-size: 56px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .contacts_howfind {
+    font-size: 48px;
+  }
+}
+
+.contacts__wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  color: black;
+}
+
+.contacts__details {
+  display: flex;
+  flex-flow: column;
+  width: 42%;
+  color: black;
+  background: #EDEDED;
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  justify-content: space-around;
+}
+@media screen and (max-width: 767px) {
+  .contacts__details {
+    width: 100%;
+  }
+}
+
+.details_text1 {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 100%;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .details_text1 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .details_text1 {
+    font-size: 20px;
+  }
+}
+
+.details_text2 {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 100%;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .details_text2 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .details_text2 {
+    font-size: 20px;
+  }
+}
+
+.map__image {
+  width: 58%;
+}
+@media screen and (max-width: 767px) {
+  .map__image {
+    display: none;
+  }
+}
+
+.map__image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+footer {
+  width: 100%;
+  height: 117px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding-bottom: 1.5%;
+}
+
+.footer_copy {
+  flex-grow: 25;
+  padding-left: 2%;
+}
+
+.footer_wa {
+  flex-grow: 1;
+}
+
+.footer_telegram {
+  padding-right: 2%;
+main
 }/*# sourceMappingURL=styles.css.map */
