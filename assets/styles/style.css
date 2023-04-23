@@ -449,7 +449,7 @@
       .title {
         justify-self: center;
         font-size: 40px;
-        line-height: 45px;
+        line-height: 44px;
         text-align: center;
         font-family: "Playfair Display";
         font-style: normal;
@@ -457,4 +457,5 @@
         color: rgb(0, 0, 0);
       }
       }
+
 /*# sourceMappingURL=style.css.map */
