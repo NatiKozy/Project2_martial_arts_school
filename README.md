@@ -12,10 +12,8 @@
 
 ### _Website functionality_
 
-- On this platform, the user has the opportunity to get acquainted with architectural projects.
-- It is possible to move between the pages of the site, which makes it possible to learn more about the projects of interest.
-- Embedded map with company location.
-- Possibility of filling out a form for consultation on an architectural project.
+- Compact landpage with all requisite information.
+- It is possible to move between sections of the site, using navbar.
 - Website adapted to different device sizes.
 
 ---
