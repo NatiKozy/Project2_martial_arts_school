@@ -1,5 +1,23 @@
 # Project2_martial_arts_school
-<h1 align="center">Project</h1>
+ ---
+
+<h1 align="center" style="color:blue">Bogdan's martial arts school</h1>
+
+---
+
+![logo](assets/img/readme_logo.png)
+
+---
+
+## Website functionality
+
+- On this platform, the user has the opportunity to get acquainted with architectural projects.
+- It is possible to move between the pages of the site, which makes it possible to learn more about the projects of interest.
+- Embedded map with company location.
+- Possibility of filling out a form for consultation on an architectural project.
+- Website adapted to different device sizes.
+
+---
 
 
 ## Used technologies
@@ -10,6 +28,8 @@
 ![markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![SCSS](https://img.shields.io/badge/SCSS-hotpink.svg?style=for-the-badge&logo=SCSS&logoColor=white)
+
+---
 
 ## Website developers
 
