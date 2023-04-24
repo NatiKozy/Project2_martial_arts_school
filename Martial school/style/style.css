@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Playfair Display";
+  font-size: 4em;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 2em;
+  line-height: 53.32px;
+  text-align: center;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 46.24px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: inherit;
+  gap: 20%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.container__img-1 {
+  width: 21%;
+  height: 30%;
+  margin-left: 40%;
+}
+
+.container__img-2 {
+  width: 45%;
+  height: 10%;
+  margin-left: 30%;
+}
+
+.container__block {
+  width: 448px;
+  height: 400px;
+}
+
+.container__block-2 {
+  width: 445px;
+  height: 605px;
+  margin-top: 20%;
+}
+
+.container__img-3 {
+  width: 21%;
+  height: 30%;
+  margin-left: 40%;
+  margin-top: -13%;
+}
+
+.container__block-3 {
+  width: 445px;
+  height: 605px;
+}
+
+.container__img-4 {
+  width: 35%;
+  height: 17em;
+  margin-left: 35%;
+  margin-top: -20%;
+}
+
+.container__block-4 {
+  width: 445px;
+  height: 605px;
+}
+
+.container__img-5 {
+  width: 20%;
+  height: 11em;
+  margin-left: 40%;
+}
+
+.container__block-5 {
+  width: 30%;
+  height: 20%;
+}
+
+.container__img-6 {
+  width: 40%;
+  height: 11em;
+  margin-left: 35%;
+}
+
+.container__block-6 {
+  width: 30%;
+  height: 20%;
+}
+
+.container__img-7 {
+  width: 13%;
+  height: 11em;
+  margin-left: 45%;
+  margin-top: 10%;
+}
+
+.container__block-7 {
+  width: 35%;
+  height: 20%;
+}
+
+.container__img-8 {
+  width: 13%;
+  height: 11em;
+  margin-left: 45%;
+  margin-top: 10%;
+}
+
+.container__block-8 {
+  width: 30%;
+  height: 20%;
+} /*# sourceMappingURL=style.css.map */
