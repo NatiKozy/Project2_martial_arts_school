@@ -35,6 +35,8 @@ body {
     margin: 0 auto;
 }
 
+// nati
+
 .hero{
     max-width:1600px;
     background-color: #E1EBFF;
@@ -46,7 +48,7 @@ body {
     @include title;
     padding-top: 5%;
     padding-left: 11%;
-    @media(max-width:450px) {
+    @media(max-width:767px) {
         font-size:52px;
     }
 }
@@ -82,6 +84,71 @@ body {
     }
 }
 
+// nati
+
+// luda
+.system{
+    max-width: 1600px;
+    margin: 0 auto;
+    margin-bottom: 8%;
+}
+
+.system__title{
+    @include title;
+    padding-left: 7%;
+    text-align: center;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.system__block__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    @media(max-width:767px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.system__block{
+    width: 30%;
+    height: 40%;
+    margin-bottom: 5%;
+}
+
+.vingchun{
+    margin-top: 3%;
+}
+
+.kalisilat{
+    margin-top: 3%;
+}
+
+.system__block-title{
+    font-family: $title-font;
+    font-weight:400;
+    font-size: 40px;
+    line-height: 53px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.system__block-text{
+    font-family: $text-font;
+    font-weight:400;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+}
+
+.system__block-img{
+    margin-left: 35%;
+}
+// luda
+
+// tanya
 .contacts {
     width: 100%;
     margin: 0 auto;
@@ -194,3 +261,5 @@ footer {
 .footer_telegram {
     padding-right: 2%;
 }
+
+// tanya

@@ -31,7 +31,7 @@ body {
   padding-top: 5%;
   padding-left: 11%;
 }
-@media (max-width: 450px) {
+@media (max-width: 767px) {
   .hero__title {
     font-size: 52px;
   }
@@ -76,6 +76,72 @@ body {
 .about__list .about__item::before {
   content: url(../images/triangle.svg);
   padding-right: 3%;
+}
+
+.system {
+  max-width: 1600px;
+  margin: 0 auto;
+  margin-bottom: 8%;
+}
+
+.system__title {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 86px;
+  color: #000;
+  padding-left: 7%;
+  text-align: center;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+
+.system__block__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+@media (max-width: 767px) {
+  .system__block__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.system__block {
+  width: 30%;
+  height: 40%;
+  margin-bottom: 5%;
+}
+
+.vingchun {
+  margin-top: 3%;
+}
+
+.kalisilat {
+  margin-top: 3%;
+}
+
+.system__block-title {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 53px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.system__block-text {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 46px;
+  text-align: center;
+}
+
+.system__block-img {
+  margin-left: 35%;
 }
 
 .contacts {
