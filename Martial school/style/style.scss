@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+@mixin head-title {
+  font-family: "Playfair Display";
+  text-align: center;
+  font-size: 4em;
+}
+
+@mixin h3 {
+  font-family: "Playfair Display";
+}
+h3 {
+  @include h3;
+  font-weight: 400;
+  font-size: 2em;
+  line-height: 3.3325em;
+  text-align: center;
+  font-weight: bold;
+}
+@mixin text {
+  font-family: "Jost";
+}
+p {
+  @include text;
+  font-weight: 400;
+  font-size: 2em;
+  line-height: 2.89em;
+  text-align: center;
+}
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: inherit;
+  gap: 20%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+@mixin pic-size {
+  width: 0.21em;
+  height: 0.3em;
+}
+.container__img-1 {
+  @include pic-size;
+  margin-left: 0.4em;
+}
+.container__img-2 {
+  width: 0.45em;
+  height: 0.1em;
+  margin-left: 0.3em;
+}
+.container__block {
+  width: 28em;
+  height: 37.5em;
+}
+.container__block-2 {
+  width: 27.8125em;
+  height: 37.8125em;
+  margin-top: 0.2em;
+}
+.container__img-3 {
+  @include pic-size;
+  margin-left: 0.4em;
+  margin-top: -13%;
+}
+.container__block-3 {
+  width: 27.8125em;
+  height: 37.8125em;
+}
+.container__img-4 {
+  width: 0.35em;
+  height: 17em;
+  margin-left: 0.35em;
+  margin-top: -20%;
+}
+.container__block-4 {
+  width: 27.8125em;
+  height: 37.8125em;
+}
+.container__img-5 {
+  width: 0.2em;
+  height: 11em;
+  margin-left: 0.4em;
+}
+@mixin block-size {
+  width: 0.3em;
+  height: 0.2em;
+}
+.container__block-5 {
+  @include block-size;
+}
+.container__img-6 {
+  width: 0.4em;
+  height: 11em;
+  margin-left: 0.35em;
+}
+.container__block-6 {
+  @include block-size;
+}
+@mixin img-pic-size {
+  width: 0.13em;
+  height: 11em;
+  margin-left: 0.45em;
+  margin-top: 0.1em;
+}
+.container__img-7 {
+  @include img-pic-size;
+}
+.container__block-7 {
+  @include block-size;
+}
+.container__img-8 {
+  @include img-pic-size;
+}
+.container__block-8 {
+  @include block-size;
+}
