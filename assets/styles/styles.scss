@@ -7,6 +7,81 @@
 $title-font:'Playfair Display', serif;
 $text-color: #000;
 $text-font: 'Jost', sans-serif;
+$header-font:'Jost', serif;
+$header-color: #000000;
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    max-width: 1600px;
+    min-width: 250px;
+    margin: 0 auto;
+}
+
+
+// polina
+@mixin display {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.header {
+@include display;
+justify-content: space-around;
+max-width: 1600px;
+// height: 100%;
+margin: 0 auto;
+background: #FFFFFF;
+}
+
+.header__logo {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.header__logo-pic {
+width: 108px;
+height: 48px;
+background: #E1EBFF;
+}
+
+.header__logo-name {
+font-family: $header-font;
+color: $header-color;
+font-size: 36px;
+font-weight: bold;
+line-height: 39px;
+}
+
+.header__list {
+@include display;
+justify-content: space-between;
+list-style-type: none;
+}
+
+.header__link{
+    text-decoration: none;
+    color: $header-color;
+}
+
+.header__item {
+    font-family: $header-font;
+    color: $header-color;
+    font-size: 40px;
+    line-height: 58px;
+    padding-right: 70px;
+}
+
+// polina
+
+// nati
+
 
 @mixin title{
     font-family:$title-font;
@@ -23,19 +98,6 @@ $text-font: 'Jost', sans-serif;
     line-height: 58px;
     color: $text-color;
 }
-
-html,
-body {
-    height: 100%;
-}
-
-body {
-    max-width: 1600px;
-    min-width: 250px;
-    margin: 0 auto;
-}
-
-// nati
 
 .hero{
     max-width:1600px;

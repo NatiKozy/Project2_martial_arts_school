@@ -15,6 +15,59 @@ body {
   margin: 0 auto;
 }
 
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
+  max-width: 1600px;
+  margin: 0 auto;
+  background: #FFFFFF;
+}
+
+.header__logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__logo-pic {
+  width: 108px;
+  height: 48px;
+  background: #E1EBFF;
+}
+
+.header__logo-name {
+  font-family: "Jost", serif;
+  color: #000000;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 39px;
+}
+
+.header__list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.header__item {
+  font-family: "Jost", serif;
+  color: #000000;
+  font-size: 40px;
+  line-height: 58px;
+  padding-right: 70px;
+}
+
 .hero {
   max-width: 1600px;
   background-color: #E1EBFF;
