@@ -8,6 +8,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
+
 html {
     line-height: 1.15;
     /* 1 */
@@ -140,6 +141,7 @@ sup {
     line-height: 0;
     position: relative;
     vertical-align: baseline;
+
 }
 
 sub {
@@ -249,11 +251,13 @@ fieldset {
 }
 
 /**
+>>>>>>> main
    * 1. Correct the text wrapping in Edge and IE.
    * 2. Correct the color inheritance from `fieldset` elements in IE.
    * 3. Remove the padding so developers are not caught out when they zero out
    *    `fieldset` elements in all browsers.
    */
+
 
 legend {
     box-sizing: border-box;
@@ -377,3 +381,4 @@ template {
 [hidden] {
     display: none;
 }
+
