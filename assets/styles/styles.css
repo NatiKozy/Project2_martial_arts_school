@@ -138,7 +138,7 @@ body {
 }
 
 .system__title {
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display";
   font-weight: 700;
   font-size: 64px;
   line-height: 86px;
@@ -177,7 +177,7 @@ body {
 }
 
 .system__block-title {
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display";
   font-weight: 400;
   font-size: 40px;
   line-height: 53px;
