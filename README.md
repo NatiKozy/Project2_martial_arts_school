@@ -29,11 +29,11 @@
 
 ---
 
-<!-- ### Link
+### Link
 
-[![link](./assets/img/1_1_icon.png)Website of architects](https://annashp.github.io/Practice-March-2023/)
+[Website of martial arts school](https://natikozy.github.io/Project2_martial_arts_school/)
 
---- -->
+--- 
 
 ### _Website developers_
 
