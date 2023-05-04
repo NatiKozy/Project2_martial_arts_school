@@ -124,7 +124,7 @@ body {
   line-height: 86px;
   color: #000;
   padding-top: 5%;
-  padding-left: 11%;
+  text-align: center;
 }
 @media (max-width: 767px) {
   .hero__title {
@@ -143,8 +143,20 @@ body {
   font-size: 40px;
   line-height: 58px;
   color: #000;
-  padding-left: 7%;
   padding-bottom: 8%;
+  text-align: match-parent;
+  padding-left: 25%;
+  padding-right: 5%;
+}
+@media (max-width: 767px) {
+  .hero__text {
+    font-size: 35px;
+  }
+}
+@media (max-width: 400px) {
+  .hero__text {
+    font-size: 28px;
+  }
 }
 
 .about {
