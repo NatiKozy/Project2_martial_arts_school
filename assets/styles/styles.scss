@@ -91,7 +91,6 @@ $color: #000000;
 
 .header__item {
     font-family: $font-family;
-    color: $color;
     font-size: 2em;
     line-height: 2em;
     padding-right: 1.5em;
@@ -99,6 +98,15 @@ $color: #000000;
         font-size: 1.5em;
         padding-right: 1em;
         }
+}
+
+.header__link {
+    color: $color;
+    text-decoration: none;
+}
+
+.header__link:hover {
+    text-decoration: underline;
 }
 
 
