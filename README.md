@@ -31,7 +31,7 @@
 
 ### Link
 
-[![link] Website of martial arts school](https://natikozy.github.io/Project2_martial_arts_school/)
+[Website of martial arts school](https://natikozy.github.io/Project2_martial_arts_school/)
 
 --- 
 
