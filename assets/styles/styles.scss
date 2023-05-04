@@ -24,96 +24,87 @@ margin: 0 auto;
 }
 }
 
-// polina
-
 $font-family: "Jost", serif;
 $color: #000000;
 
 @mixin display {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
 }
 
 .header {
-    max-width: 1600px;
-    height: 100%;
-    margin: 0 auto;
-    background: #ffffff;
-    @include display;
-    justify-content: space-around;
-    align-items: flex-end;
+max-width: 1600px;
+margin: 0 auto;
+background: #ffffff;
+@include display;
+justify-content: space-around;
+align-items: flex-end;
 }
 
 .header__logo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 .header__logo-pic {
-    width: 108px;
-    height: 48px;
-    background: #e1ebff;
-        @media(max-width: 767px) {
-        width: 76px;
-        height: 29px;
-    }
+width: 108px;
+height: 48px;
+background: #e1ebff;
+  @media(max-width: 767px) {
+    width: 76px;
+    height: 29px;
+}
 }
 
 .header__logo-name {
-    font-family: $font-family;
-    font-weight: bold;
-    color: $color;
-    font-size: 3em;
-    @media(max-width: 767px) {
-        font-size: 2em;
-    }
+font-family: $font-family;
+font-weight: bold;
+color: $color;
+font-size: 3em;
+  @media(max-width: 767px) {
+    font-size: 2em;
+}
 }
 
 .header__nav {
-    padding-left: 1.5em;
-        @media(max-width: 767px) {
-        padding-left: 1em;
-    }
+padding-left: 1.5em;
+  @media(max-width: 767px) {
+    padding-left: 1em;
+}
 }
 
 .header__list {
-    @include display;
-    justify-content: space-between;
-    align-items: flex-end;
-    list-style-type: none;
+@include display;
+justify-content: space-between;
+align-items: flex-end;
+list-style-type: none;
 }
 
 .header__list:hover {
-    text-decoration: underline;
+text-decoration: underline;
 }
 
 .header__item {
-    font-family: $font-family;
-    font-size: 2em;
-    line-height: 2em;
-    padding-right: 1.5em;
-        @media(max-width: 767px) {
-        font-size: 1.5em;
-        padding-right: 1em;
-        }
+font-family: $font-family;
+font-size: 2em;
+line-height: 2em;
+padding-right: 1.5em;
+  @media(max-width: 767px) {
+    font-size: 1.5em;
+    padding-right: 1em;
+}
 }
 
 .header__link {
-    color: $color;
-    text-decoration: none;
+color: $color;
+text-decoration: none;
 }
 
 .header__link:hover {
-    text-decoration: underline;
+text-decoration: underline;
 }
-
-
-// polina
-
-// nati
-
 
 @mixin title{
 font-family:$title-font;
@@ -147,10 +138,10 @@ padding-top: 5%;
 padding-left: 11%;
 @media(max-width:767px) {
   font-size:52px;
-  }
+}
 @media(max-width:400px) {
-  font-size:42px;
-    }
+  font-size:38px;
+}
 }
 
 .hero__text{
@@ -189,9 +180,7 @@ padding-bottom: 8%;
     padding-right: 3%;
   }
 }
-// nati
 
-// Sofiya
 $title-font: 'Playfair Display';
 $content-font: 'Jost';
 $content-weight: 400;
@@ -649,7 +638,6 @@ color: $font-color;
 }
 }
 
-// luda
 .system{
 max-width: 1600px;
 margin: 0 auto;
@@ -713,9 +701,7 @@ text-align: center;
 .system__block-img{
 margin-left: 38%;
 }
-// luda
 
-// tanya
 .contacts {
 width: 100%;
 margin: 0 auto;
@@ -800,132 +786,140 @@ height: 100%;
 object-fit: cover;
 }
 
-// tanya
-
-// polina
-
 @mixin font{
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    color: #000000;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+color: #000000;
 }
 
 @mixin display {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: none;
-    padding: 0 10%;
-    flex-wrap: wrap;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: none;
+padding: 0 10%;
+flex-wrap: wrap;
 }
 
 @mixin prices__card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20% 5% 33% 5%;
-    border: 3px solid #9FBFFF;
-    }
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 20% 5% 33% 5%;
+border: 3px solid #9FBFFF;
+}
 
 @mixin prices__card-media {
-    border: 2px solid #9FBFFF;
+border: 2px solid #9FBFFF;
 }
 
 .prices {
-    max-width: 1600px;
-    width: 100%;
-    margin: 0 auto;
-    background: #ffffff;
+max-width: 1600px;
+width: 100%;
+margin: 0 auto;
+background: #ffffff;
 }
 
 .prices__title {
-    @include font;
-    font-size: 3em;
-    text-align: center;
-    margin-top: 12%;
-    margin-bottom: 8%;
-        @media(max-width: 767px) {
-        font-size: 2.7em;
-        margin-top: 10%;
-        margin-bottom: 6%;
-    }
+@include font;
+font-size: 3em;
+font-weight: 700;
+text-align: center;
+margin-top: 12%;
+margin-bottom: 8%;
+  @media(max-width: 767px) {
+    font-size: 2.7em;
+    margin-top: 10%;
+    margin-bottom: 6%;
+}
 }
 
 .prices__cards {
-    @include display;
-    margin-bottom: 8%;
+@include display;
+margin-bottom: 8%;
+  @media(max-width:500px){
+    display: flex;
+}
 }
 
 .prices__card-1 {
-    @include prices__card;
-    margin: 0 7% 7% 0;
-        @media(max-width: 767px) {
-        @include prices__card-media;
-        margin: 0 8% 8% 0;
-    }
+@include prices__card;
+margin: 0 7% 7% 0;
+  @media(max-width: 767px) {
+    @include prices__card-media;
+    margin: 0 8% 8% 0;
+}
+  @media(max-width:500px){
+    margin: 0 auto;
+}
 }
 
 .prices__card-2 {
-    @include prices__card;
-    margin: 0 0 7% 0;
-        @media(max-width: 767px) {
-        @include prices__card-media;
-        margin: 0 0 8% 0;
-    }
+@include prices__card;
+margin: 0 0 7% 0;
+  @media(max-width: 767px) {
+    @include prices__card-media;
+    margin: 0 0 8% 0;
+}
+  @media(max-width:500px){
+    margin: 0 auto;
+}
 }
 
 .prices__card-3 {
-    @include prices__card;
-    margin: 0 7% 7% 0;
-        @media(max-width: 767px) {
-        @include prices__card-media;
-        margin: 0 8% 8% 0;
-    }
+@include prices__card;
+margin: 0 7% 7% 0;
+  @media(max-width: 767px) {
+    @include prices__card-media;
+    margin: 0 8% 8% 0;
+}
+  @media(max-width:500px){
+    margin: 0 auto;
+}
 }
 
 .prices__card-4 {
-    @include prices__card;
-    margin: 0 0 7% 0;
-        @media(max-width: 767px) {
-        @include prices__card-media;
-        margin: 0 0 8% 0;
-    }
+@include prices__card;
+margin: 0 0 7% 0;
+  @media(max-width: 767px) {
+    @include prices__card-media;
+    margin: 0 0 8% 0;
+}
+  @media(max-width:500px){
+    margin: 0 auto;
+}
 }
 
 .prices__card-months,
 .prices__card-classes,
 .prices__card-price {
-    @include font;
-    text-align: center;
+@include font;
+text-align: center;
 }
 
 .prices__card-months {
-    font-size: 2.8em;
-        @media(max-width: 767px) {
-        font-size: 2.3em;
-    }
+font-size: 2.8em;
+  @media(max-width: 767px) {
+    font-size: 2.3em;
+}
 }
 
 .prices__card-classes {
-    font-size: 2em;
-    margin-bottom: 10%;
-        @media(max-width: 767px) {
-        font-size: 1.5em;
-        margin-bottom: 14%;
-    }
+font-size: 2em;
+margin-bottom: 10%;
+  @media(max-width: 767px) {
+    font-size: 1.5em;
+    margin-bottom: 14%;
+}
 }
 
 .prices__card-price {
-    font-size: 2.8em;
-        @media(max-width: 767px) {
-        font-size: 2.3em;
-    }
+font-size: 2.8em;
+  @media(max-width: 767px) {
+    font-size: 2.3em;
 }
-
-// polina
-
-// tanya
+}
 
 footer {
 width: 100%;
@@ -934,6 +928,10 @@ display: flex;
 flex-direction: row;
 align-items: flex-end;
 padding-bottom: 1.5%;
+  @media(max-width:400px){
+  flex-direction: column;
+  align-items: center;
+}
 }
 
 .footer_copy {
@@ -949,4 +947,3 @@ flex-grow: 1;
 padding-right: 2%;
 }
 
-// tanya
