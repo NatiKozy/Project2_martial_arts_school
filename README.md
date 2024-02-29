@@ -39,6 +39,6 @@
 
 [![Наталья](https://img.shields.io/badge/-Natalya-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NatiKozy)
 [![Татьяна](https://img.shields.io/badge/-Tatiana-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AndromedaST)
-[![София](https://img.shields.io/badge/-Sofiya-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sofiyarr)
+[![Shvadr](https://img.shields.io/badge/-Shvadr-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shvadr)
 [![Людмила](https://img.shields.io/badge/-Ludmila-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shenfeldt84)
 [![Полина](https://img.shields.io/badge/-Polina-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/polinearkchv)
